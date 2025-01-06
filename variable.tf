@@ -1,5 +1,5 @@
 variable "environments" {
-  default = ["dev", "staging", "production"]
+  default = ["devi", "stage", "product"]
 }
 
 variable "vpc_id" {
