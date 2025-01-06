@@ -1,16 +1,16 @@
 output "instance_ips" {
   value = {
-    "dev"        = aws_instance.example["dev"].public_ip
-    "staging"    = aws_instance.example["staging"].public_ip
-    "production" = aws_instance.example["production"].public_ip
+    "devi"        = aws_instance.example["devi"].public_ip
+    "stage"    = aws_instance.example["stage"].public_ip
+    "product" = aws_instance.example["product"].public_ip
   }
 }
 
 output "bucket_names" {
   value = {
-    "dev"        = aws_s3_bucket.example["devi"].bucket
-    "staging"    = aws_s3_bucket.example["stage"].bucket
-    "production" = aws_s3_bucket.example["product"].bucket
+    "devi"        = aws_s3_bucket.example["devi"].bucket
+    "stage"    = aws_s3_bucket.example["stage"].bucket
+    "product" = aws_s3_bucket.example["product"].bucket
   }
 }
 
