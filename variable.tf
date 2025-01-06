@@ -3,11 +3,11 @@ variable "environments" {
 }
 
 variable "vpc_id" {
-  my vpc = "vpc-vpc-00527cdfa7df32"
+  default = "vpc-vpc-00527cdfa7df32"
 }
 
 variable "subnet_id" {
-  my-sub = "subnet-subnet-0e03543074156f098"
+  default = "subnet-subnet-0e03543074156f098"
 }
 
 variable "instance_type" {
