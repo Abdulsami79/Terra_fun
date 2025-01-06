@@ -8,9 +8,9 @@ output "instance_ips" {
 
 output "bucket_names" {
   value = {
-    "dev"        = aws_s3_bucket.example["dev"].bucket
-    "staging"    = aws_s3_bucket.example["staging"].bucket
-    "production" = aws_s3_bucket.example["production"].bucket
+    "dev"        = aws_s3_bucket.example["devi"].bucket
+    "staging"    = aws_s3_bucket.example["stage"].bucket
+    "production" = aws_s3_bucket.example["product"].bucket
   }
 }
 
