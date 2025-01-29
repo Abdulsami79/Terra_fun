@@ -15,7 +15,7 @@ variable "instance_type" {
 }
 
 variable "ami_id" {
-  default = "ami-0fd05997b4dff7aac"
+  default = "ami-05fa46471b02db0ce"
 }
 
 variable "bucket_prefix" {
